@@ -70,8 +70,12 @@
 
         <div class="container">
             <a href="#"><img src="assets/Favoritos.svg" alt="meus favoritos" class="container__imagem container__imagem-transparente"></a>
-            <a href="#"><img src="assets/Compras.svg" alt="carrinho de compras" class="container__imagem"></a>
-            <a href="#"><img src="assets/Usuário.svg" alt="meu perfil" class="container__imagem"></a>
+            <a href="#" class="container__link">
+                <img src="assets/Compras.svg" alt="carrinho de compras" class="container__imagem"></a>
+                <p class="container__texto">minha sacola</p>
+            <a href="#" class="container__link">
+                <img src="assets/Usuário.svg" alt="meu perfil" class="container__imagem"></a>
+                <p class="container__texto">Meu perfil</p>
         </div>
     </header>
 
@@ -84,6 +88,7 @@
         <section class="carrossel">
             <h2 class="carrossel__titulo">ÚLTIMOS LANÇAMENTOS</h2>
             <!-- Slider main container -->
+            <div class="carrossel__container">
             <div class="swiper">
             <!-- If we need pagination -->
             <div class="swiper-pagination"></div>
@@ -128,8 +133,9 @@
         </section>
 
         <section class="carrossel">
-            <h2 class="carrossel__titulo">Mais vendidos</h2>
+            <h2 class="carrossel__titulo">ÚLTIMOS LANÇAMENTOS</h2>
             <!-- Slider main container -->
+            <div class="carrossel__container">
             <div class="swiper">
             <!-- If we need pagination -->
             <div class="swiper-pagination"></div>
